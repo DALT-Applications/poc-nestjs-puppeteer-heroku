@@ -11,7 +11,7 @@ export class DocumentoService implements OnModuleInit, OnModuleDestroy {
   
   async onModuleInit() {
       console.log('lanzando chrome')
-      this.browser = await puppeteer.launch();
+      this.browser = await puppeteer.launch({ args: ['--no-sandbox'] });
       console.log('browser iniciado', this.browser);
   }
   
