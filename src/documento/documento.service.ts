@@ -28,13 +28,15 @@ export class DocumentoService implements OnModuleInit, OnModuleDestroy {
   <head>
     <meta content="text/html; charset=UTF-8">
     <style type="text/css">
+    @import url(//fonts.googleapis.com/css?family=Times+New+Roman);
+
     
         body{
             text-align: justify;
             margin-left: 48pt;
             padding-right: 60pt;
             font-size: 11pt;
-            font-family: "Times New Roman";
+            font-family: "Times New Roman", Arial;
             line-height: 1.3;
         }
 
