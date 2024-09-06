@@ -27,18 +27,43 @@ export class DocumentoService implements OnModuleInit, OnModuleDestroy {
     <html>
   <head>
     <meta content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style type="text/css">
-    @import url(//fonts.googleapis.com/css?family=Times+New+Roman);
+      .tinos-regular {
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
 
-    
-        body{
-            text-align: justify;
-            margin-left: 48pt;
-            padding-right: 60pt;
-            font-size: 11pt;
-            font-family: "Times New Roman", Arial;
-            line-height: 1.3;
-        }
+      .tinos-bold {
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .tinos-regular-italic {
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      .tinos-bold-italic {
+        font-family: "Tinos", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+
+      body{
+        text-align: justify;
+        margin-left: 48pt;
+        padding-right: 60pt;
+        font-size: 11pt;
+        font-family: "Tinos", Arial;
+        line-height: 1.3;
+      }
 
       .c22 {
         padding-top: 10.6pt;
